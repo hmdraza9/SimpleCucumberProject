@@ -2,12 +2,17 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-04-01T14:01:22 IST" name="Suite" finished-at="2024-04-01T14:01:22 IST" duration-ms="78">
+=======
+  <suite started-at="2024-04-01T13:06:09 IST" name="Default suite" finished-at="2024-04-01T13:06:09 IST" duration-ms="203">
+>>>>>>> 85cdb723f57612f54553c7c09b988503e608cab3
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.app.runner.TestRunnerParallelTestNG@4b741d6d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2024-04-01T14:01:22 IST" name="Test" finished-at="2024-04-01T14:01:22 IST" duration-ms="78">
       <class name="com.app.runner.TestRunnerParallelTestNG">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.app.runner.TestRunnerParallelTestNG@4b741d6d]" started-at="2024-04-01T14:01:22 IST" name="setUpClass" finished-at="2024-04-01T14:01:22 IST" duration-ms="46" status="FAIL">
@@ -15,6 +20,15 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@1ef4909b]]>
+=======
+    <test started-at="2024-04-01T13:06:09 IST" name="Default test" finished-at="2024-04-01T13:06:09 IST" duration-ms="203">
+      <class name="runner.TestRunnerParallelTestNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunnerParallelTestNG@6892b3b6]" started-at="2024-04-01T13:06:09 IST" name="setUpClass" finished-at="2024-04-01T13:06:09 IST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@421bba99]]>
+>>>>>>> 85cdb723f57612f54553c7c09b988503e608cab3
               </value>
             </param>
           </params>
@@ -80,7 +94,11 @@ at io.cucumber.core.options.PluginOption.parsePluginName(PluginOption.java:139)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.app.runner.TestRunnerParallelTestNG@4b741d6d]" started-at="2024-04-01T14:01:22 IST" name="tearDownClass" finished-at="2024-04-01T14:01:22 IST" duration-ms="1" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunnerParallelTestNG@6892b3b6]" started-at="2024-04-01T13:06:09 IST" name="tearDownClass" finished-at="2024-04-01T13:06:09 IST" duration-ms="2" status="PASS">
+>>>>>>> 85cdb723f57612f54553c7c09b988503e608cab3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
