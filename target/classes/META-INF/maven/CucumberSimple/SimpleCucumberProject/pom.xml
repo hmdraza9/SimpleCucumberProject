@@ -79,8 +79,14 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.0</version>
 					<configuration>
-						<parallel>methods</parallel>
-						<useUnlimitedThreads>true</useUnlimitedThreads>
+						<parallel>all</parallel> <!-- classes, methods
+						https://is.gd/vHxLRU-->
+						<!--<useUnlimitedThreads>true</useUnlimitedThreads>-->
+						<!--<perCoreThreadCount>true</perCoreThreadCount>-->
+						<!--<forkCount>2</forkCount>-->
+						<threadCountSuites>2</threadCountSuites>
+						<threadCountClasses>2</threadCountClasses>
+						<threadCountMethods>2</threadCountMethods>
 					</configuration>
 				</plugin>
 				<plugin>

@@ -1,18 +1,12 @@
-//package runner;
+//package runner.Runnerz;
 //
-//import org.junit.runner.RunWith;
 //import org.testng.annotations.DataProvider;
 //
-//import io.cucumber.junit.Cucumber;
-//import io.cucumber.junit.CucumberOptions;
 //import io.cucumber.testng.AbstractTestNGCucumberTests;
+//import io.cucumber.testng.CucumberOptions;
 //
-//@RunWith(Cucumber.class)
-//@CucumberOptions(
-//
-//		features = { "src/test/java/allFeatures" }, glue = { "stepDef" }
-////		, tags = "@tag3"
-//)
+//@CucumberOptions(tags = "@tag2", features = { "src/test/resources/features" }, glue = { "com.app.stepDefs" }, plugin = {
+//		"pretty", "html:target/cucumber-reports.html" }, monochrome = false)
 //public class TestRunnerParallelTestNG extends AbstractTestNGCucumberTests {
 //
 //	@Override
@@ -21,4 +15,3 @@
 //		return super.scenarios();
 //	}
 //}
-package runner;
